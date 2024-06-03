@@ -163,16 +163,17 @@ const HeroSection = () => {
                 Eliminate overstocking and under-stocking with Crest. Built by supply-chain experts, it brings the same technology used by large global brands to power fast-growing startups. In short, we make supply meet demand, and then help you grow both.
               </p>
               <div className="mt-8 relative">
-                <a href="#get-started" className="cta-button bg-gradient-to-r from-purple-400 to-pink-500 text-white px-6 py-3 rounded-full inline-flex items-center">
-                  Get started with Crest
-                </a>
-                <div className="arrow-text">
-                  <svg className="arrow" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
+              <div className="arrow-text mt-4">
+                  <svg className="arrow rotated-arrow" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
                     <line x1="12" y1="5" x2="12" y2="19"></line>
                     <polyline points="19 12 12 19 5 12"></polyline>
                   </svg>
                   <span className="gradient-text">Integrate your logistics stack with Crest in just two days</span>
                 </div>
+                <a href="#get-started" className="cta-button bg-gradient-to-r from-purple-400 to-pink-500 text-white px-6 py-3 rounded-full inline-flex items-center">
+                  Get started with Crest
+                </a>
+               
               </div>
             </div>
           </div>

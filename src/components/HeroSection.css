@@ -115,3 +115,6 @@
     margin-right: 10px;
     fill: #000000;
 }
+.rotated-arrow {
+    transform: rotate(180deg);
+}

@@ -1,25 +1,28 @@
-import logo from './logo.svg';
-import './App.css';
+import React from 'react';
+import HeroSection from './components/HeroSection.js';
+// import KeyProblemsSolved from './components/KeyProblemsSolved';
+// import KeyMetrics from './components/KeyMetrics';
+// import Reviews from './components/Reviews';
+// import ProblemTarget from './components/ProblemTarget';
+// import CTA from './components/CTA';
+// import Footer from './components/Footer';
+import './App.css'; // Optional: Add global styling here
+import 'bootstrap/dist/css/bootstrap.min.css';
 
-function App() {
+
+const App = () => {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className="app">
+      <HeroSection />
+      {/* <KeyProblemsSolved />
+      <KeyMetrics />
+      <Reviews />
+      <ProblemTarget />
+      <CTA />
+      <Footer /> */}
     </div>
   );
 }
 
 export default App;
+

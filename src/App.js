@@ -1,8 +1,8 @@
 import React from 'react';
 import HeroSection from './components/HeroSection.js';
 import KeyProblemsSolved from './components/KeyProblemsSolved';
-// import KeyMetrics from './components/KeyMetrics';
-// import Reviews from './components/Reviews';
+import KeyMetrics from './components/KeyMetrics';
+import Reviews from './components/Reviews';
 // import ProblemTarget from './components/ProblemTarget';
 // import CTA from './components/CTA';
 // import Footer from './components/Footer';
@@ -15,11 +15,11 @@ const App = () => {
     <div className="app">
       <HeroSection />
       <KeyProblemsSolved />
-      {/* <KeyMetrics />
+       <KeyMetrics />
       <Reviews />
-      <ProblemTarget />
+      {/* <ProblemTarget />
       <CTA />
-      <Footer />  */}
+      <Footer />   */}
     </div>
   );
 }

@@ -1,0 +1,27 @@
+.scroll-indicator {
+    display: flex;
+    align-items: center;
+    width: fit-content; /* Adjust width as needed */
+    overflow-x: scroll;
+    scroll-snap-type: x mandatory;
+  }
+  
+  .buttons-container {
+    display: flex;
+    scroll-snap-type: x mandatory;
+  }
+  
+  .button {
+    margin-right: 10px; /* Adjust spacing as needed */
+    padding: 10px 20px; /* Adjust padding as needed */
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    cursor: pointer;
+    scroll-snap-align: start; /* Snap button to the start of the scroll container */
+  }
+  
+  .number-display {
+    margin-left: 20px; /* Adjust spacing as needed */
+    font-size: 20px;
+  }
+  

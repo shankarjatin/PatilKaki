@@ -1,15 +1,29 @@
-
-  .border-gradient {
-    /* Keep the original border styles for better compatibility */
-    border: 1px solid transparent; /* Maintains button border look */
-  
-    /* Add a pseudo-element before the button content */
-    &:before {
-      content: "";
-      position: absolute;
-      inset: 0; /* Stretches to fill the button */
-      border-radius: inherit; /* Inherit border-radius from button */
-      background-image: linear-gradient(to right,  #c084fc, #ec4899);
-    }
+/* KeyMetrics.css */
+.bg-black {
+    background-color: black;
   }
   
+  .text-white {
+    color: white;
+  }
+  
+  .min-h-screen {
+    min-height: 100vh;
+  }
+  
+  
+  
+  .border-purple-400 {
+    --tw-border-opacity: 1;
+    border-color: rgba(139, 92, 246, var(--tw-border-opacity));
+  }
+  
+  .gradient-text {
+    background: linear-gradient(to right, #A855F7, #EC4899);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.bg{
+    background-color: #1A1A1A;
+}

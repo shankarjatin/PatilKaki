@@ -135,9 +135,9 @@ const HeroSection = () => {
   return (
     <section className="hero-section relative text-white flex flex-col lg:flex-row lg:items-center">
       <div className="absolute inset-0">
-        <img src={grid} alt="Grid Background" className="background-img" />
+        <img src={grid} alt="Grid Background" className="background-img w-100 h-100" />
       </div>
-      <nav className="navbar w-full top-0 left-0 py-4 px-6 flex justify-between items-center">
+      <nav className="navbar sticky top-0 w-full top-0 left-0 py-4 px-6 flex justify-between items-center">
         <div className="text-2xl font-bold">Crest</div>
         <div className="flex space-x-6">
           <a href="#product" className="hover:text-gray-400">Product</a>
@@ -152,7 +152,7 @@ const HeroSection = () => {
           <a href="#talk" className="cta-button bg-gradient-to-r from-purple-400 to-pink-500 text-white px-4 py-2 rounded-md">Talk to Us</a>
         </div>
       </nav>
-      <div className="container mx-auto flex flex-col lg:flex-row items-start justify-center px-6 py-12 relative z-10 mt-20 lg:mt-0 pt-40">
+      <div className="container mx-auto flex flex-col lg:flex-row items-start justify-center px-6 py-12 relative z-10 mt-5 lg:mt-0 pt-10">
         <div className="lg:w-1/2 lg:mr-6 hero-content">
           <div className="text-left mb-8">
             <div>

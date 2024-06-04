@@ -1,4 +1,5 @@
 /* KeyMetrics.css */
+
 .bg-black {
     background-color: black;
   }
@@ -26,4 +27,16 @@
 
 .bg{
     background-color: #1A1A1A;
+}
+
+.bottomBlur {
+    position: relative;
+    width: 65vw;
+    height: 20vw;
+    top: -208px;
+    right: -64vw;
+    border-radius: 764px;
+    background: rgba(25, 55, 109, 0.7);
+    filter: blur(100px);
+    z-index: 0;
 }

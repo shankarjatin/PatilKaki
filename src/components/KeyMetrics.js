@@ -1,8 +1,9 @@
 import React, { useState, useEffect } from 'react';
 import './KeyMetrics.css';
+import styles from "./KeyMetrics.css";
 
 const KeyMetrics = () => {
-  const [activeButton, setActiveButton] = useState(null);
+  const [activeButton, setActiveButton] = useState(1);
 
   useEffect(() => {
     if (activeButton !== null) {
@@ -50,7 +51,10 @@ const KeyMetrics = () => {
   };
 
   return (
-    <div className="bg text-white font-bold text-xl min-h-screen  justify-center items-center">
+    <div className="bg text-white font-bold text-xl min-h-screen  justify-center items-center" id='grad4'>
+         <div className="absolute inset-0 background-img w-100 h-100">
+        
+      </div>
         <div className="grid gird-cols-4">
       <div className="col-span-1  grid gird-cols-1 lg:pl-20 pt-20 gap-10 mb-8 ">
       <button
@@ -79,6 +83,8 @@ const KeyMetrics = () => {
         Revnue
         </button>
       </div>
+     
+
 
 
       <div className="col-span-3 items-center">
@@ -101,8 +107,10 @@ const KeyMetrics = () => {
           </div>
         )}
       </div>
-
+  
     </div>
+ 
+    <div className="bottomBlur ml-250" />
     </div>
   );
 };

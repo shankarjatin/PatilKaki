@@ -3,7 +3,7 @@ import HeroSection from './components/HeroSection.js';
 import KeyProblemsSolved from './components/KeyProblemsSolved';
 import KeyMetrics from './components/KeyMetrics';
 import Reviews from './components/Reviews';
-// import ProblemTarget from './components/ProblemTarget';
+import ProblemTarget from './components/ProblemTarget';
 // import CTA from './components/CTA';
 // import Footer from './components/Footer';
 import './App.css'; // Optional: Add global styling here
@@ -17,9 +17,9 @@ const App = () => {
       <KeyProblemsSolved />
        <KeyMetrics />
       <Reviews />
-      {/* <ProblemTarget />
-      <CTA />
-      <Footer />   */}
+      <ProblemTarget />
+      {/* <CTA />
+      <Footer />    */}
     </div>
   );
 }

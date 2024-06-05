@@ -43,10 +43,10 @@ const KeyMetrics = () => {
       animate(text1, 0, 85, 7000);
     }
     if (activeButton === 2 && text2) {
-      animate(text2, 0, 25, 7000);
+      animate(text2, 0, 85, 7000);
     }
     if (activeButton === 3 && text3) {
-      animate(text3, 0, 15, 7000);
+      animate(text3, 0, 85, 7000);
     }
   };
 

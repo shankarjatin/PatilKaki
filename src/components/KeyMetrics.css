@@ -1,0 +1,42 @@
+/* KeyMetrics.css */
+
+.bg-black {
+    background-color: black;
+  }
+  
+  .text-white {
+    color: white;
+  }
+  
+  .min-h-screen {
+    min-height: 100vh;
+  }
+  
+  
+  
+  .border-purple-400 {
+    --tw-border-opacity: 1;
+    border-color: rgba(139, 92, 246, var(--tw-border-opacity));
+  }
+  
+  .gradient-text {
+    background: linear-gradient(to right, #A855F7, #EC4899);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.bg{
+    background-color: #1A1A1A;
+}
+
+.bottomBlur {
+    position: relative;
+    width: 65vw;
+    height: 20vw;
+    top: -208px;
+    right: -64vw;
+    border-radius: 764px;
+    background: rgba(25, 55, 109, 0.7);
+    filter: blur(100px);
+    z-index: 0;
+}

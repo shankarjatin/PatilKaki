@@ -4,3 +4,17 @@
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }
+
+  
+  .transition-max-height {
+    transition: max-height 1s ease-in-out;
+  }
+  
+  .max-h-40 {
+    max-height: 10rem; /* Adjust as necessary to ensure it fits the description content */
+  }
+  
+  .max-h-0 {
+    max-height: 0;
+  }
+  

@@ -31,8 +31,8 @@ const KeyProblemsSolved = () => {
   return (
     <div className="main flex px-10 mx-0 py-10">
       <div className="w-4xl">
-        <div className="text-center items-center">
-          <h1 className="text-4xl items-center font-bold mb-8 self-center">Four key questions answered by Crest</h1>
+        <div className="text-center items-center py-10 pb-4 mb-10">
+          <h1 className="text-5xl items-center font-bold mb-8 self-center">Four key questions answered by Crest</h1>
         </div>
         <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 lg:gap-8 gap-4 items-center justify-start">
           {questions.map((question, index) => (

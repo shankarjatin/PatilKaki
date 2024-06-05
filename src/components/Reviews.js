@@ -78,7 +78,7 @@ const Reviews = () => {
 </div>
       
       <div className="container mx-auto py-10">
-            <div className="flex flex-col  md:flex-row bg-white rounded-lg shadow-lg overflow-hidden">
+            <div className="flex flex-col  md:flex-row bg-white rounded-lg  overflow-hidden">
                 <div className="flex-1 lg:mx-15 lg:px-20 pt-20">
                     <p className="text-gray-700 mb-4 text-xl  ">{cards[currentCard].description}</p>
                     <div className="flex items-center mb-4 lg:h-10 pt-10 w-fit">

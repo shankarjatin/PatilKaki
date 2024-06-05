@@ -3,7 +3,7 @@ import './style.css';
 
 const Sidebar = ({ items, onItemClick, expandedItem }) => {
   return (
-    <div className="w-1/2 px-10 mr-10  overflow-y-auto">
+    <div className="lg:w-1/2 sm:w-4/4 md:w-4/4 px-10 mr-10  overflow-y-auto">
       <ul className='justify-evenly'>
         {items.map((item, index) => (
           <li key={index} className="my-2 gap-5">

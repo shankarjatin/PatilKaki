@@ -4,6 +4,7 @@ import KeyProblemsSolved from './components/KeyProblemsSolved';
 import KeyMetrics from './components/KeyMetrics';
 import Reviews from './components/Reviews';
 import ProblemTarget from './components/ProblemTarget';
+import Carousel from './components/Carousel';
 // import CTA from './components/CTA';
 // import Footer from './components/Footer';
 import './App.css'; // Optional: Add global styling here
@@ -18,6 +19,7 @@ const App = () => {
        <KeyMetrics />
       <Reviews />
       <ProblemTarget />
+      <Carousel />
       {/* <CTA />
       <Footer />    */}
     </div>

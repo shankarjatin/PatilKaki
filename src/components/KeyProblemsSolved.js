@@ -39,7 +39,7 @@ const KeyProblemsSolved = () => {
             <div
               key={index}
               className="bg-purple-100 rounded-lg p-4 flex flex-col items-start"
-            >
+            > 
               <span className="text-7xl mb-2">{question.icon}</span>
               <h2 className="text-3xl font-semibold mb-2">{question.title}</h2>
               <p className="text-l py-6 ">{question.description}</p>

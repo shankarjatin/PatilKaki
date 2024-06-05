@@ -19,21 +19,18 @@ const ProblemTarget = () => {
   const [selectedItem, setSelectedItem] = useState(items[0].name);
   const [imageSrc, setImageSrc] = useState(items[0].image);
   const [description, setDescription] = useState(items[0].description);
-  const [expandedItems, setExpandedItems] = useState({});
+  const [expandedItem, setExpandedItem] = useState(null);
 
   const handleItemClick = (item) => {
     setSelectedItem(item.name);
     setImageSrc(item.image);
     setDescription(item.description);
-    setExpandedItems((prevState) => ({
-      ...prevState,
-      [item.name]: !prevState[item.name],
-    }));
+    setExpandedItem((prevItem) => (prevItem === item.name ? null : item.name));
   };
 
   return (
-    <div className="flex h-screen bg-gradient-to-r from-purple-100 to-pink-100">
-      <Sidebar items={items} onItemClick={handleItemClick} expandedItems={expandedItems} />
+    <div className="flex h-screen bg-gradient-to-r from-purple-100 to-pink-100 overflow-hidden">
+      <Sidebar items={items} onItemClick={handleItemClick} expandedItem={expandedItem} />
       <Content selectedItem={selectedItem} imageSrc={imageSrc} />
     </div>
   );

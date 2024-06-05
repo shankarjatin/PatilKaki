@@ -18,3 +18,8 @@
     max-height: 0;
   }
   
+  @media (max-width: 768px) {
+    .overflow-y-auto {
+      overflow-y: visible;
+    }
+  }

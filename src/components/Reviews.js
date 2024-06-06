@@ -7,11 +7,11 @@ import logo5 from '../images/logo5.png';
 import logo6 from '../images/logo6.png';
 import logo7 from '../images/logo7.png';
 import logo8 from '../images/logo8.png';
-import img1 from '../images/img-1.jpg';
-import img2 from '../images/samosa.jpg';
+import img1 from '../images/asset 61.webp';
+import img2 from '../images/asset 57.webp';
 import img3 from '../images/momo.jpg';
-import dp1 from '../images/vanshika_profile.jpg';
-import dp2 from '../images/jatin_profile.jpg';
+import dp1 from '../images/asset 54.webp';
+import dp2 from '../images/asset 59.jpeg';
 import dp3 from '../images/pratik_profile.jpg';
 
 const cards = [
@@ -20,7 +20,7 @@ const cards = [
     authorPhoto: dp1,
     authorName: 'Vanshika Verma',
     authorTitle: 'Co-founder, Samosa Party',
-    cardImage: img2,
+    cardImage: img1,
     stats: [
       { value: 'upto 95%', label: 'Demand Fulfilment' },
       { value: '< 3%', label: 'Daily Stock-out' },
@@ -28,26 +28,16 @@ const cards = [
   },
   {
     description: `D2C brands face issues with supply chain management and high growth startups are not equipped to run their demand forecast manually. Crest automates all the workflows and helps brands predict high demand periods and be ready to cater to customer demands. It has a direct impact on the revenue readiness of a company and that's the value we see Crest unlocking for many companies in the future. Rahul and team have built a robust product with years of their experience distilled into the workflows.`,
-    authorPhoto: dp3,
+    authorPhoto: dp2,
     authorName: 'Pratik Shankar',
     authorTitle: 'Co-founder, Momo King',
-    cardImage: img3,
+    cardImage: img2,
     stats: [
       { value: 'upto 85%', label: 'Demand Fulfilment' },
       { value: '< 38%', label: 'Daily Stock-out' },
     ],
   },
-  {
-    description: `D2C brands face issues with supply chain management and high growth startups are not equipped to run their demand forecast manually. Crest automates all the workflows and helps brands predict high demand periods and be ready to cater to customer demands. It has a direct impact on the revenue readiness of a company and that's the value we see Crest unlocking for many companies in the future. Rahul and team have built a robust product with years of their experience distilled into the workflows.`,
-    authorPhoto: dp2,
-    authorName: 'Jatin Shankar',
-    authorTitle: 'Co-founder, Restra Deorians',
-    cardImage: img1,
-    stats: [
-      { value: 'upto 95%', label: 'Demand Fulfilment' },
-      { value: '< 1%', label: 'Daily Stock-out' },
-    ],
-  },
+ 
 ];
 
 const Reviews = () => {

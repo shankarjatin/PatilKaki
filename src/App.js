@@ -7,7 +7,7 @@ import ProblemTarget from './components/ProblemTarget';
 import Carousel from './components/Carousel';
 import BlogCarousel from './components/BlogCarousel'; 
 // import CTA from './components/CTA';
-// import Footer from './components/Footer';
+import Footer from './components/Footer';
 import './App.css'; // Optional: Add global styling here
 import 'bootstrap/dist/css/bootstrap.min.css';
 
@@ -22,8 +22,8 @@ const App = () => {
       <ProblemTarget />
       <Carousel />
       <BlogCarousel/>
-      {/* <CTA />
-      <Footer />    */}
+       {/* <CTA /> */}
+      <Footer />    
     </div>
   );
 }

@@ -48,11 +48,12 @@
 import React, { useState } from 'react';
 import Sidebar from './screens/Sidebar';
 import Content from './screens/Content';
-import img1 from '../images/dash1.jpg';
-import img2 from '../images/dash2.jpg';
-import img3 from '../images/dash3.jpg';
-import img4 from '../images/dash4.jpg';
-import img5 from '../images/dash5.jpg';
+import img1 from '../images/asset 63.webp';
+import img2 from '../images/asset 64.webp';
+import img3 from '../images/asset 65.webp';
+import img4 from '../images/asset 66.webp';
+import img5 from '../images/asset 67.webp';
+import img6 from '../images/asset 68.webp';
 
 const items = [
   { name: 'Accurate Demand Forecasting', image: img1, description: 'Dynamically predict future demand across all channels, with high accuracy and lowest granularity. Crest takes into account what traditional forecasts dont: trends, real-time market signals, promotional activities, and even logistics disruptions' },
@@ -61,7 +62,7 @@ const items = [
   { name: 'Automated Distribution Planning', image: img1, description: 'Description for Automated Distribution Planning' },
   { name: 'Easy Integration', image: img4, description: 'Never miss an order, and know exactly how much to order, when, and from whom. This is made possible with constant inventory tracking and automated PO generation. Whats more, Crest improves with every planning cycle as the data set gets richer.' },
   { name: 'Custom Dashboards', image: img5, description: 'Create customised dashboards to identify important trends, patterns, and insights. Tailor them to match the unique requirements of your team, empowering them to extract data in a user-friendly format that can be easily comprehended.' },
-  { name: 'Consensus Planning', image: img1, description: 'Get inputs from all major stakeholders for the forecast numbers with a multi-level approval process. Compare & visualise the impact of the numbers on major KPIs in real time and take informed decisions with Scenario Planning' },
+  { name: 'Consensus Planning', image: img6, description: 'Get inputs from all major stakeholders for the forecast numbers with a multi-level approval process. Compare & visualise the impact of the numbers on major KPIs in real time and take informed decisions with Scenario Planning' },
 ];
 
 const ProblemTarget = () => {

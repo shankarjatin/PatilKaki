@@ -25,7 +25,7 @@ const HeroSection = () => {
           <a href="#about" className="hover:text-gray-400">About</a>
           <a href="#blog" className="hover:text-gray-400">Blog</a>
         </div>
-        <div className="flex hidden lg:bloc space-x-4 items-center">
+        <div className="flex hidden lg:block space-x-4 items-center">
           <a href="#login" className="hover:text-gray-400">Login</a>
           <a href="#talk" className="cta-button bg-gradient-to-r from-purple-400 to-pink-500 text-white px-4 py-2 rounded-md">Talk to Us</a>
         </div>

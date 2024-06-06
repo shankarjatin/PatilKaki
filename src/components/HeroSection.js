@@ -1,19 +1,23 @@
-
-
-import React from 'react';
+import React, { useState } from 'react';
 import './HeroSection.css'; // Import custom CSS for additional styles
 import grid from '../images/grid.png';
-import background from '../images/background.png';
+import background from '../images/hero.svg';
 
 const HeroSection = () => {
+  const [menuOpen, setMenuOpen] = useState(false);
+
+  const toggleMenu = () => {
+    setMenuOpen(!menuOpen);
+  };
+
   return (
     <section className="hero-section relative text-white flex flex-col lg:flex-row lg:items-center">
       <div className="absolute inset-0">
         <img src={grid} alt="Grid Background" className="background-img w-100 h-100" />
       </div>
-      <nav className="navbar sticky top-0 w-full top-0 left-0 py-4 px-6 flex justify-between items-center">
-        <div className="text-2xl font-bold">Crest</div>
-        <div className="flex space-x-6">
+      <nav className="navbar sticky top-0 w-full py-4 px-6 flex justify-between items-center">
+        <div className="text-2xl font-bold">CleverBooks</div>
+        <div className="navbar-items hidden lg:block flex space-x-6">
           <a href="#product" className="hover:text-gray-400">Product</a>
           <a href="#pricing" className="hover:text-gray-400">Pricing</a>
           <a href="#industry" className="hover:text-gray-400">Industry</a>
@@ -21,9 +25,24 @@ const HeroSection = () => {
           <a href="#about" className="hover:text-gray-400">About</a>
           <a href="#blog" className="hover:text-gray-400">Blog</a>
         </div>
-        <div className="flex space-x-4 items-center">
+        <div className="flex hidden lg:bloc space-x-4 items-center">
           <a href="#login" className="hover:text-gray-400">Login</a>
           <a href="#talk" className="cta-button bg-gradient-to-r from-purple-400 to-pink-500 text-white px-4 py-2 rounded-md">Talk to Us</a>
+        </div>
+        <div className={`hamburger lg:hidden ${menuOpen ? 'active' : ''}`} onClick={toggleMenu}>
+          <div></div>
+          <div></div>
+          <div></div>
+        </div>
+        <div className={`navbar-menu ${menuOpen ? 'active' : ''}`}>
+          <a href="#product" className="hover:text-gray-400" onClick={toggleMenu}>Product</a>
+          <a href="#pricing" className="hover:text-gray-400" onClick={toggleMenu}>Pricing</a>
+          <a href="#industry" className="hover:text-gray-400" onClick={toggleMenu}>Industry</a>
+          <a href="#customer-stories" className="hover:text-gray-400" onClick={toggleMenu}>Customer Stories</a>
+          <a href="#about" className="hover:text-gray-400" onClick={toggleMenu}>About</a>
+          <a href="#blog" className="hover:text-gray-400" onClick={toggleMenu}>Blog</a>
+          <a href="#login" className="hover:text-gray-400" onClick={toggleMenu}>Login</a>
+          <a href="#talk" className="cta-button bg-gradient-to-r from-purple-400 to-pink-500 text-white px-4 py-2 rounded-md" onClick={toggleMenu}>Talk to Us</a>
         </div>
       </nav>
       <div className="container mx-auto flex flex-col lg:flex-row items-start justify-center px-6 py-12 relative z-10 mt-5 lg:mt-0 pt-10">
@@ -37,7 +56,7 @@ const HeroSection = () => {
                 Eliminate overstocking and under-stocking with Crest. Built by supply-chain experts, it brings the same technology used by large global brands to power fast-growing startups. In short, we make supply meet demand, and then help you grow both.
               </p>
               <div className="mt-8 relative">
-              <div className="arrow-text mt-4">
+                <div className="arrow-text mt-4">
                   <svg className="arrow rotated-arrow" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
                     <line x1="12" y1="5" x2="12" y2="19"></line>
                     <polyline points="19 12 12 19 5 12"></polyline>
@@ -47,7 +66,6 @@ const HeroSection = () => {
                 <a href="#get-started" className="cta-button bg-gradient-to-r from-purple-400 to-pink-500 text-white px-6 py-3 rounded-full inline-flex items-center">
                   Get started with Crest
                 </a>
-               
               </div>
             </div>
           </div>

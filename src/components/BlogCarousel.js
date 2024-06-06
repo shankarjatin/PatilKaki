@@ -28,7 +28,7 @@ const BlogCarousel = () => {
           </p>
 
           <div className="flex items-center">
-            <div className="flex flex-row  gap-4">
+            <div className="flex flex-row gap-4">
               <button
                 onClick={() => scroll('left')}
                 className="p-2 bg-gradient-to-r from-purple-500 to-pink-500 rounded-full text-white"
@@ -102,3 +102,4 @@ const BlogCarousel = () => {
 };
 
 export default BlogCarousel;
+

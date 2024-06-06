@@ -1,12 +1,13 @@
 import React, { useState } from 'react';
 import './Reviews.css';
-import logo1 from '../images/logo1.png';
-import logo2 from '../images/logo2.png';
-import logo3 from '../images/logo3.png';
-import logo5 from '../images/logo5.png';
-import logo6 from '../images/logo6.png';
-import logo7 from '../images/logo7.png';
-import logo8 from '../images/logo8.png';
+import logo1 from '../images/asset 34.svg';
+import logo2 from '../images/asset 35.svg';
+import logo3 from '../images/asset 36.svg';
+import logo4 from '../images/asset 37.svg';
+import logo5 from '../images/asset 38.svg';
+import logo6 from '../images/asset 39.svg';
+import logo7 from '../images/asset 40.svg';
+import logo8 from '../images/asset 41.svg';
 import img1 from '../images/asset 61.webp';
 import img2 from '../images/asset 57.webp';
 import img3 from '../images/momo.jpg';
@@ -53,17 +54,16 @@ const Reviews = () => {
 
   return (
     <div>
-      <div className="overflow-x-hidden">
-        <div className="py-12 justify-center animate-marquee grid lg:grid-cols-7 gap-3 whitespace-nowrap">
-          <span className="mx-4 sm:col-span-3 text-4xl"><img src={logo1} className='h-10 w-15' alt='logo' /></span>
-          <span className="mx-4 text-4xl"><img src={logo2} className='h-10 w-15' alt='logo' /></span>
-          <span className="mx-4 text-4xl"><img src={logo3} className='h-10 w-15' alt='logo' /></span>
-          <span className="mx-4 text-4xl"><img src={logo5} className='h-10 w-15' alt='logo' /></span>
-          <span className="mx-4 text-4xl"><img src={logo6} className='h-10 w-15' alt='logo' /></span>
-          <span className="mx-4 text-4xl"><img src={logo7} className='h-10 w-15' alt='logo' /></span>
-          <span className="mx-4 text-4xl"><img src={logo8} className='h-10 w-15' alt='logo' /></span>
-        </div>
-      </div>
+      <div className="wrapper">
+      <div className="item item1"><img src={logo1}/></div>
+      <div className="item item2"><img src={logo2}/></div>
+      <div className="item item3"><img src={logo3}/></div>
+      <div className="item item4"><img src={logo4}/></div>
+      <div className="item item5"><img src={logo5}/></div>
+      <div className="item item6"><img src={logo6}/></div>
+      <div className="item item7"><img src={logo7}/></div>
+      <div className="item item8"><img src={logo8}/></div>
+    </div>
 
       <div className="container mx-auto py-10 px-4 md:px-0">
         <div className="flex flex-col md:flex-row bg-white rounded-lg overflow-hidden shadow-lg">

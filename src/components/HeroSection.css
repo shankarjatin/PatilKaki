@@ -158,3 +158,79 @@
         margin-bottom: 10px;
     }
 }
+
+/* HeroSection.css */
+
+/* Existing styles... */
+
+./* HeroSection.css */
+
+/* Existing styles... */
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .navbar-items {
+    display: flex;
+   
+  }
+  
+  .navbar-menu {
+    display: none;
+    flex-direction: column;
+    background-color: #000; /* Adjust as needed */
+    position: absolute;
+    top: 100%;
+    left: 0;
+    width: 100%;
+    padding: 1rem;
+  }
+  
+  .navbar-menu a {
+    padding: 0.5rem 0;
+    text-align: center;
+  }
+  
+  .hamburger {
+    display: none;
+    flex-direction: column;
+    cursor: pointer;
+  }
+  
+  .hamburger div {
+    width: 25px;
+    height: 3px;
+    background-color: #fff;
+    margin: 4px;
+    transition: all 0.3s;
+  }
+  
+  .hamburger.active div:nth-child(1) {
+    transform: rotate(45deg) translate(5px, 5px);
+  }
+  
+  .hamburger.active div:nth-child(2) {
+    opacity: 0;
+  }
+  
+  .hamburger.active div:nth-child(3) {
+    transform: rotate(-45deg) translate(5px, -5px);
+  }
+  
+  @media (max-width: 1024px) {
+    .navbar-items {
+      display: none; /* Hide horizontal navbar on smaller screens */
+    }
+  
+    .hamburger {
+      display: flex; /* Display hamburger menu on smaller screens */
+    }
+  
+    .navbar-menu.active {
+      display: flex; /* Show vertical menu when active */
+    }
+  }
+  

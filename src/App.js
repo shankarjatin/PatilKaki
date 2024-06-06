@@ -6,7 +6,7 @@ import Reviews from './components/Reviews';
 import ProblemTarget from './components/ProblemTarget';
 import Carousel from './components/Carousel';
 import BlogCarousel from './components/BlogCarousel'; 
-// import CTA from './components/CTA';
+import CallToAction from './components/CallToAction.js';
 import Footer from './components/Footer';
 import './App.css'; // Optional: Add global styling here
 import 'bootstrap/dist/css/bootstrap.min.css';
@@ -22,7 +22,7 @@ const App = () => {
       <ProblemTarget />
       <Carousel />
       <BlogCarousel/>
-       {/* <CTA /> */}
+       <CallToAction />
       <Footer />    
     </div>
   );

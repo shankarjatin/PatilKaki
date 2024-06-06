@@ -5,7 +5,7 @@ import './footer.css'
 
 const Footer = () => {
   return (
-    <div className='main bg-black w-full h-full text-white  mt-10'>
+    <div className='main bg-black w-full h-full text-white  mt-0'>
 <div className=" main grid  sm:grid-cols-5 md:grid-cols-5 lg:grid-cols bg-black text-white mt-10">
     <div className='sm:col-span-5 md:col-span-5 lg:col-span-2 sm:pl-2 lg:pl-10'><div className="mb-8 w-50   md:mb-0">
       <div className="flex items-center mb-4">

@@ -1,5 +1,8 @@
 import React from 'react';
-
+import item1 from '../images/item1.svg'
+import item2 from '../images/item2.svg'
+import item3 from '../images/item3.svg'
+import item4 from '../images/item4.svg'
 const KeyProblemsSolved = () => {
   const questions = [
     {

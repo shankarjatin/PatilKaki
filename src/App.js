@@ -4,8 +4,10 @@ import KeyProblemsSolved from './components/KeyProblemsSolved';
 import KeyMetrics from './components/KeyMetrics';
 import Reviews from './components/Reviews';
 import ProblemTarget from './components/ProblemTarget';
+import Carousel from './components/Carousel';
+import BlogCarousel from './components/BlogCarousel'; 
 // import CTA from './components/CTA';
-// import Footer from './components/Footer';
+import Footer from './components/Footer';
 import './App.css'; // Optional: Add global styling here
 import 'bootstrap/dist/css/bootstrap.min.css';
 
@@ -18,8 +20,10 @@ const App = () => {
        <KeyMetrics />
       <Reviews />
       <ProblemTarget />
-      {/* <CTA />
-      <Footer />    */}
+      <Carousel />
+      <BlogCarousel/>
+       {/* <CTA /> */}
+      <Footer />    
     </div>
   );
 }
